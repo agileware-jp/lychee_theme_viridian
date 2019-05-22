@@ -1,0 +1,18 @@
+/* load the default Redmine stylesheet */
+@import url(../../../stylesheets/responsive.css);
+
+/* theme_darkcolor */
+@media screen and (max-width: 899px)
+{
+#header {
+  background-color: #295d72;
+}
+.flyout-menu{
+  background: #253a4a;
+}
+.flyout-menu h3{
+  background-color: #295d72;
+  border-top: none;
+  border-bottom: none;
+}
+}

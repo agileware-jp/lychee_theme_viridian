@@ -1,0 +1,33 @@
+/* load the default Redmine stylesheet */
+@import url(../../../stylesheets/application.css);
+
+/* theme_darkcolor */
+#header {
+     background-color: #295d72;
+}
+#top-menu{
+  background: #253a4a;
+}
+
+#main-menu li a:hover {background:#fff; color:#202030;}
+#main-menu li a.selected, #main-menu li a.selected:hover {background:#fff; color:#202030;}
+#main-menu li a.new-object { background-color:#fff; color:#202030;}
+#main-menu li a.lychee-menu:hover{border-top:solid 2px #f00;}
+#main-menu li a.lychee-menu.selected, #main-menu li a.lychee-menu.selected:hover {border-top:solid 2px #f00;}
+
+/* lychee-icon_color */
+.lychee-top-menu:before{
+  content: url('../images/lychee_red_icon.svg')!important;
+  margin-right: 3px;
+  position: relative;
+  top: 2px;
+}
+.lychee-menu:before {
+  content: url('../images/lychee_red_icon.svg')!important;
+  margin-right: 3px;
+  position: relative;
+  top: 2px;
+}
+.lychee-menu.selected:before {
+  content: url('../images/lychee_red_icon.svg')!important;
+}

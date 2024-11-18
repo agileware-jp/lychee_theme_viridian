@@ -1,5 +1,5 @@
 /* load the default Redmine stylesheet */
-@import url(../../../stylesheets/responsive.css);
+@import url(../../responsive.css);
 
 /* theme_darkcolor */
 @media screen and (max-width: 899px)

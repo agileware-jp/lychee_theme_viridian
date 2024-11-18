@@ -15,4 +15,12 @@
   border-top: none;
   border-bottom: none;
 }
+.flyout-menu #admin-menu a,
+.flyout-menu #admin-menu a.selected {
+  padding-left: 0 !important;
+}
+.flyout-menu #admin-menu a svg.icon-svg ,
+.flyout-menu #admin-menu a.selected svg.icon-svg {
+  stroke: #FFF;
+}
 }

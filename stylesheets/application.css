@@ -1,5 +1,5 @@
 /* load the default Redmine stylesheet */
-@import url(../../application.css);
+@import url(../../../stylesheets/application.css);
 
 /* theme_darkcolor */
 #header {

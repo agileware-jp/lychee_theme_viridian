@@ -1,5 +1,5 @@
 # lychee_theme_viridian
-v1.0.1
+v2.0.0
 
 ## License
 MIT
